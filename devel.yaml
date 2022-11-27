@@ -33,7 +33,7 @@ services:
       DOODBA_ENVIRONMENT: "${DOODBA_ENVIRONMENT-devel}"
       LIST_DB: "true"
       DEBUGPY_ENABLE: "${DOODBA_DEBUGPY_ENABLE:-0}"
-      PGDATABASE: &dbname 22_locefaca
+      PGDATABASE: &dbname odoo14
       PYTHONDONTWRITEBYTECODE: 1
       PYTHONOPTIMIZE: ""
       PYTHONPATH: /opt/odoo/custom/src/odoo
@@ -75,8 +75,7 @@ services:
       service: db
     environment:
       POSTGRES_DB: *dbname
-      POSTGRES_PASSWORD: abc123
-
+      POSTGRES_PASSWORD: postgres
   # pgweb:
   #   image: docker.io/sosedoff/pgweb
   #   networks: *public
@@ -170,7 +169,7 @@ services:
   #     TARGET: www.gravatar.com
   #     PRE_RESOLVE: 1
 
-networks:
+  networks:
   default:
     internal: ${DOODBA_NETWORK_INTERNAL-true}
   public:

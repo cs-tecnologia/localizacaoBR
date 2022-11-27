@@ -16,3 +16,4 @@ xmldiff
 pycep_correios
 odoo_test_helper
 git+https://github.com/OCA/odoo-test-helper.git@master
+workalendar

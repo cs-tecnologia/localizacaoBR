@@ -10,8 +10,8 @@ services:
         GID: "${GID:-1000}"
     environment:
       EMAIL_FROM: ""
-      PGDATABASE: &dbname prod
-      PGUSER: &dbuser "odoo"
+      PGDATABASE: &dbname odoo14
+      PGUSER: &dbuser "odoo14"
       PROXY_MODE: "true"
       LIST_DB: "true"
     tty: true
