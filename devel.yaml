@@ -57,7 +57,7 @@ services:
       # - wdb
     networks: &public
       default:
-      public:
+      public: "nw-cs"
     ports:
       # - "127.0.0.1:14899:6899"
       - "127.0.0.1:14069:8069"

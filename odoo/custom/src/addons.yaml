@@ -33,8 +33,14 @@ bank-payment:
   - account_payment_partner
   - account_payment_purchase
   - account_payment_sale
+  - account_payment_order_return
+  - account_payment_purchase_stock
+  - account_payment_order_sequence_payment_mode
+  - account_payment_order_vendor_email
 account-payment:
   - account_due_list
+  - account_payment_return
+  - account_due_list_payment_mode
 account-invoicing:
   - account_invoice_date_due
   - account_invoice_merge
