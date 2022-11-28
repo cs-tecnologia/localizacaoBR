@@ -70,4 +70,10 @@
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
-
+/opt/odoo/custom/src/sale-workflow:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/sale-workflow.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION

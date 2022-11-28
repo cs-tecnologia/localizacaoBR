@@ -59,3 +59,6 @@ ats-odoo:
   - account_move_service_report
 report-engine:
   - report_py3o
+sale-workflow:
+  - sale.invoice.plan
+
