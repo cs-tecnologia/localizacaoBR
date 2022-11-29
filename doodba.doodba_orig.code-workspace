@@ -6081,7 +6081,7 @@
           "http://localhost:14069/l10n_br_delivery/static/": "${workspaceFolder:l10n-brazil}/l10n_br_delivery/static/",
           "http://localhost:14069/payment_pagseguro/static/": "${workspaceFolder:l10n-brazil}/payment_pagseguro/static/",
           "http://localhost:14069/backend_theme_v14/static/": "${workspaceFolder:backend_theme}/backend_theme_v14/static/",
-          "http://localhost:14069/sale-workflow/static/": "${workspaceFolder:sale-workflow}/sale.invoice.plan/static/",
+          "http://localhost:14069/sale.invoice.plan/static/": "${workspaceFolder:sale-workflow}/sale.invoice.plan/static/",
         },
         "runtimeExecutable": "/snap/bin/chromium"
       }
