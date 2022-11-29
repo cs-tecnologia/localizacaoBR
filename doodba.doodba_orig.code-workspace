@@ -2722,6 +2722,10 @@
           {
             "localRoot": "${workspaceFolder:backend_theme}/backend_theme_v14",
             "remoteRoot": "/opt/odoo/auto/addons/backend_theme_v14/"
+          },
+          {
+            "localRoot": "${workspaceFolder:sale-workflow}/sale.invoice.plan",
+            "remoteRoot": "/opt/odoo/auto/addons/sale.invoice.plan/"
           }
         ],
         "port": 14899,
